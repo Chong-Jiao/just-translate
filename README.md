@@ -13,7 +13,7 @@
 
 1. `python -m just_translate -h`
 
-
+```
 -h  帮助
 -u  更新账户信息
 -s  [lang] 指定源语言类型
@@ -25,6 +25,7 @@
     jp     : 日语
     cht    : 繁体中文
     ru     : 俄语
+```
 
 2. `python -m just_translate "hello"`
 
