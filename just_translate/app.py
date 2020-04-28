@@ -20,6 +20,7 @@ def parse_arg(args):
             arg_dict['h'] = 'help'
             break
         elif(args[i]=='-u'):
+            arg_dict['u'] = 'update'
             i = i+1
         elif(args[i]=='-s'):
             arg_dict['s'] = args[i+1]
